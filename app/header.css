@@ -1,0 +1,124 @@
+#meanHeader>div{
+    z-index: 1;
+    position: relative;
+    left: 30px;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./Logo\ 2_page-0001.jpg");
+    
+   
+  }
+  @font-face {
+    font-family: arab;
+    src: url("./fonts/Montserrat-Arabic-Regular.ttf") format("truetype");
+  
+  }
+
+
+    #App{
+      
+      width: 100%;
+    }
+  
+    #items{
+      display: none;
+    }
+    #header_holder{
+
+      top: -8;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0;
+        left: -10px;
+      display: flex;
+      justify-content: center;
+
+      height: 400px;
+      width: 100%;
+    
+    }
+    /* Header*/
+    #header{
+      position: relative;
+      top: 100px;
+      height:80px;
+      width: 90%;
+      background-color: rgb(255, 255, 255);
+      z-index: 1;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+
+      box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.318);
+    
+    }
+    #message{
+      display: flex;
+      align-items: center;
+  
+      color: rgba(0, 0, 0, 0.534) ;
+      font-family: arab;
+      position: relative;
+      font-style: normal;
+      align-items: center;
+     display: flex;
+    justify-content: center;
+    border-radius: solid 1px ;
+
+    width: 20%;
+    }
+    #message>a{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+
+    }
+    #message>a{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      gap: 4px;
+      padding-left: 10px;
+      cursor: pointer;
+      
+    }
+    #mailIcon:hover{
+        color:rgb(100, 68, 0);
+    
+      
+    }
+    #headerspace{
+    
+    width: 50%;
+    }
+    #meanHeader{
+      padding-right: 3%;
+      color: rgba(0, 0, 0, 0.534) ;
+      font-family: arab;
+      font-size: medium;
+      font-weight: 100;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40%;
+      gap: 3%;
+    }
+    #meanHeader>a{
+    text-align: center;
+     position: relative;
+     left: 10%;
+    width: 100px;
+    cursor: pointer;
+    
+    }
+    #meanHeader>a:hover{
+      color:rgb(100, 68, 0);
+    }
+    /* #bk_login{
+
+    } */
+   
