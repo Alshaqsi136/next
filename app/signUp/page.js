@@ -1,8 +1,8 @@
 "use client"
 import Header from '../header';
 import "../header.css"
-import "./login.css"
-import Login from './login';
+import "./login2.css"
+import Login from './login2';
 import Inputs from './inputs';
 import { useInView } from "framer-motion";
 import { useRef } from "react";
