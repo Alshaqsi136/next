@@ -27,11 +27,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ar">
       <head>
-      <link   rel="preload" href="/_next/static/css/e62d17760b25927f.css" data-precedence="next" as="Style"/>
-        <link rel="preload" href="/_next/static/css/3bcdf2d92adae83e.css" data-precedence="next" as="Style"/>
-        <link rel="preload" href="/_next/static/css/03e1d9b303c5a6ff.css" data-precedence="next" as="Style"/>
-        <link rel="preload" href="/_next/static/css/d498c84e4ab246b3.css" data-precedence="next" as="Style"/>
-        <link rel="preload" href="/_next/static/css/dabd977388a70434.css" data-precedence="next" as="Style"/>
+     
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}` }>
         {children}
