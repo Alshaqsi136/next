@@ -206,10 +206,8 @@ bottom: 60px;
 
 }
 #icon1{
-
   position: relative;
- 
-  background-image: url("./logo.c37d3747.PNG")format('.PNG');
+  background-image: url("./logo.PNG")format('.PNG');
   background-size: cover;
   width: 90px;
   height: 90px;

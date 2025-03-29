@@ -9,7 +9,7 @@ export default function Inputs(){
     return (<div id="inputs1">
 
         <div id="inp_holder1">
-            <div id='lginfo1'><div id='icon1'></div></div>
+            <div id='lginfo1'><div id='icon1' style={{backgroundImage:'url("./logo.PNG")'}}></div></div>
             <form id="infro1" action={"courses"} >
       <div className='inp-cont1'>
         <p id='newlog1'>تسجيل الدخول</p>
