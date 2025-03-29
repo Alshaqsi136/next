@@ -210,7 +210,7 @@ bottom: 60px;
 
   position: relative;
  
-  background-image: url(../logo.PNG);
+  background-image: url(./logo.PNG);
   background-size: cover;
   width: 90px;
   height: 90px;
