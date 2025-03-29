@@ -1,4 +1,4 @@
-import "./login2.css";
+import "./login.css";
 export default function Login(){
    
     return (<div id="login_in1">

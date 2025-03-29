@@ -208,8 +208,7 @@ bottom: 60px;
 #icon1{
 position: relative;
 background-color: rgb(58, 155, 33);
-background-image: url("https://next-99zr.vercel.app/_next/static/media/ruben-hanssen-ZQ6bjPMZcY8-unsplash.bcb62f11.jpg");
-  background-size: cover;
+background-size: cover;
   width: 90px;
   height: 90px;
 }
