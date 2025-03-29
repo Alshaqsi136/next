@@ -4,6 +4,7 @@ import { Style } from "@mui/icons-material";
 import App from './page';
 import Head from "next/head";
 import Link from "next/link";
+import Header from './header';
 
 
 const geistSans = Geist({
@@ -25,12 +26,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ar">
-       <head> <link rel="preload" href="/_next/static/css/2689db827e5979b4.css" as="style" />
-       <link rel="preload" href="https://next-99zr.vercel.app/_next/static/css/2689db827e5979b4.css" as="style" />
-       <link rel="preload" href="https://next-99zr.vercel.app/_next/static/css/6921cffc7dbd5b59.css" as="style" />
-       <link rel="preload" href="https://next-99zr.vercel.app/_next/static/css/dabd977388a70434.css" as="style" />
-       <link rel="preload" href="/_next/static/css/2689db827e5979b4.css" as="style" />
-       </head>
+      <head>
+      <link   rel="preload" href="/_next/static/css/e62d17760b25927f.css" data-precedence="next" as="Style"/>
+        <link rel="preload" href="/_next/static/css/3bcdf2d92adae83e.css" data-precedence="next" as="Style"/>
+        <link rel="preload" href="/_next/static/css/03e1d9b303c5a6ff.css" data-precedence="next" as="Style"/>
+        <link rel="preload" href="/_next/static/css/d498c84e4ab246b3.css" data-precedence="next" as="Style"/>
+        <link rel="preload" href="/_next/static/css/dabd977388a70434.css" data-precedence="next" as="Style"/>
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}` }>
         {children}
       </body>
