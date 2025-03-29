@@ -15,7 +15,7 @@ return <div id="imgShow1">
           transform: isInView ? "none" : "translateX(100px)",
           opacity: isInView ? 1 : 0,
           transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-        }}><h1> د.  ناصرمحمد الشقصي</h1>< SupervisorAccountIcon id="spIcon"/></div>
+        }}><h1> د.  ناصمحمد الشقصي</h1>< SupervisorAccountIcon id="spIcon"/></div>
     <div id="expLesson">
         <ul id="cerifi1"  ref={ref } style={{
           transform: isInView ? "none" : "translateY(-100px)",
