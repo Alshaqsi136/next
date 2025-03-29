@@ -58,7 +58,8 @@ input{
   top: 0;
   position: relative;
   height: 100%;
-  background-image: url("../signUp/ruben-hanssen-ZQ6bjPMZcY8-unsplash.jpg")format('.jpeg');
+  background-color:rgb(100, 68, 0);
+
 
   background-position: bottom;
  background-size: cover;
