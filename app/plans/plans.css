@@ -7,7 +7,7 @@
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../Logo\ 2_page-0001.jpg");
+    background-image: url("../logo.PNG")format('.PNG');
     
    
   }
