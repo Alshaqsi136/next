@@ -191,7 +191,7 @@ bottom: 60px;
 }
 #icon{
   
-  background-image: url("logo.c37d3747.PNG")format('.PNG');
+  background-image: url("../favicon.ico")format('.ico');
   background-size: cover;
   width: 90px;
   height: 90px;
