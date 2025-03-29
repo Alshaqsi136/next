@@ -190,8 +190,7 @@ bottom: 60px;
   align-items: center;
 }
 #icon{
-  
-  background-image: url("../favicon.ico")format('.ico');
+  background-color: antiquewhite;
   background-size: cover;
   width: 90px;
   height: 90px;
