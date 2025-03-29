@@ -191,7 +191,7 @@ bottom: 60px;
 }
 #icon{
   
-  background-image: url("../logo.PNG")format('.PNG');
+  background-image: url("./logo.PNG")format('.PNG');
   background-size: cover;
   width: 90px;
   height: 90px;
